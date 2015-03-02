@@ -1,0 +1,47 @@
+
+ls = list
+-l = long listing
+
+pwd = print working directory
+
+cd = change directory
+cd ~ = home directory
+cd / = root directory
+cd .. = back one level
+
+cp = copy file
+	$ cp <file_name.txt> <new_file_name.txt>
+	$ cp <file_name.txt> … <target_location>
+
+mv = move file
+	$ mv <file_name.txt> … <target_location>
+	$ mv <file_name.txt> … <folder1>/<folder2>/<target_location>
+	$ mv <file_name.txt> <new_file_name.txt>
+
+mkdir = make a new directory
+	$ mkdir <folder1>
+
+rmdir = remove a directory (empty)
+rm = remove a file/directory (with files in it)
+
+touch = creates a new file
+
+cat = join two files
+	$ cat <file1.txt> <file2.txt> > <new_combined_file.txt>
+	$ cat <file_name.txt> > <new_file_name.txt>
+
+less = shows content of file
+
+curl = getting or sending files using URL syntax
+	$ curl <www.sitename.com>
+	$ curl -o <file_name.html> <www.sitename.com>
+
+find = finds files or folders
+	$ find <*.txt>
+
+grep = searches within files
+	$ grep <search_term> <target_file.txt>
+	$ grep <search_term> -i <target_file.txt> (ignores case)
+	$ grep <search_term> -v <target_file.txt> (search that doesn't contain)
+
+
